@@ -1,5 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
 
+header.div
+{
+    background-color: rgb(246, 232, 223);
+    display: inline;
+    color: rgb(62, 69, 98)
+}
+
 main
 {
     width: 70%;
