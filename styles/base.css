@@ -1,8 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
 
-header.div
+#Me
 {
-    background-color: rgb(246, 232, 223);
+    background-color: rgb(226, 204, 190);
     display: inline;
     color: rgb(62, 69, 98)
 }
