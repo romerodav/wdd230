@@ -1,9 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
 
-#Me
+header
 {
-    background-color: rgb(226, 204, 190);
-    display: inline;
+    background-color: rgb(224, 204, 191);
     color: rgb(62, 69, 98)
 }
 
