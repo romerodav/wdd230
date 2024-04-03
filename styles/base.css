@@ -1,18 +1,95 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
 
+body
+{
+    display: grid;
+    margin: 0;
+    background-color: rgb(224, 204, 191);
+}
+
 header
 {
-    background-color: rgb(224, 204, 191);
-    color: rgb(62, 69, 98)
+    display: grid;
+    color: rgb(62, 69, 98);
+    grid-template-columns: repeat(4, 1fr);
+    align-items: center;
+}
+
+.phot
+{
+    grid-column: 2/3;
+    text-align: center;
+}
+
+.phot img
+{
+    width: 75%;
+    margin: 10% auto;
+}
+
+.nam
+{
+    grid-column: 3/5;
+}
+
+.nam h1
+{
+    font-size: 250%;
+}
+
+nav
+{
+    background-color: #b2c36a;
+}
+
+nav ul
+{
+    text-align: center;
+    list-style: none;
+    padding: 10% auto;
+}
+
+a
+{
+    text-decoration: none;
+    color: rgb(62, 69, 98);
+    font-size: 135%;
+}
+
+a:hover
+{
+    color: white;
 }
 
 main
 {
-    width: 70%;
-    margin: 0 auto;
+    padding: 3%;
+    background-color: #b6836b;
+}
+
+main h2
+{
+    text-align: center;
+    color: white;
+    font-size: 180%;
 }
 
 .card
 {
     display: grid;
+}
+
+.card ul
+{
+    list-style-type: decimal-leading-zero;
+}
+
+footer
+{
+    text-align: center;
+}
+
+footer img
+{
+    width: 1.5em;
 }
