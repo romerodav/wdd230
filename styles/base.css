@@ -90,7 +90,7 @@ main h2
 footer
 {
     text-align: center;
-    padding: 1%;
+    padding: 2%;
 }
 
 footer p
@@ -100,5 +100,12 @@ footer p
 
 footer img
 {
-    width: 1.5em;
+    width: 1.7em;
+}
+
+#lastModified
+{
+    color: #915234;
+    padding-top: 0.3em;
+    font-weight: bold;
 }
